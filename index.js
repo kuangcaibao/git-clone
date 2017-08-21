@@ -21,7 +21,10 @@ module.exports = function(repo, targetPath, opts, cb) {
     args.push(repo);
     args.push(targetPath);
 
-    var process = spawn(git, args);
+    /*
+        child process std -> parent process std
+    */
+    var process = spawn(git, args, { stdio: "inherit" });
     process.on('close', function(status) {
         if (status == 0) {
             if (opts.checkout) {

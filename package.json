@@ -1,6 +1,6 @@
 {
-  "name": "git-clone",
-  "version": "0.1.0",
+  "name": "git-clone2",
+  "version": "0.0.1",
   "description": "Clone a git repository",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaz303/git-clone.git"
+    "url": "git://github.com/kuangcaibao/git-clone.git"
   },
   "keywords": [
     "git",
     "clone",
     "shell"
   ],
-  "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
+  "author": "kuangcaibao",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jaz303/git-clone/issues"
+    "url": "https://github.com/kuangcaibao/git-clone/issues"
   },
-  "homepage": "https://github.com/jaz303/git-clone"
+  "homepage": "https://github.com/kuangcaibao/git-clone"
 }
